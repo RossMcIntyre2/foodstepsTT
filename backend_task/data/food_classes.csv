@@ -1,0 +1,72 @@
+ID,Name,Impact / kg,Parent ID
+1,Beef Mince,,2
+2,Beef,2.649402237,3
+3,Ruminant Meat,5.508225903,4
+4,Meat,1.310413655,
+5,Pork Mince,,6
+6,Pork,,7
+7,Pork & Poultry,4.548881992,4
+8,Carrots,9.811717734,9
+9,Root Vegetables,7.781639031,10
+10,Vegetables,3.161091821,
+11,Onions,9.000471107,12
+12,Onions and Leeks,4.764500409,13
+13,Bulbs,7.706728936,10
+14,Celery,0.2183862344,15
+15,Stem Vegetables,5.441168674,10
+16,Garlic,4.436081072,13
+17,Rosemary,,18
+18,Herbs,2.102187648,19
+19,Leaves,4.161051102,10
+20,Olive Oil,8.084466052,21
+21,Oils,,
+22,Plum Tomatoes,,23
+23,Tomatoes,1.048766001,24
+24,Fruit Vegetables,2.404733034,10
+25,Water,4.992903259,29
+26,Red Wine,,27
+27,Wine,7.828728036,28
+28,Alcoholic Drinks,0.9766256099,29
+29,Drinks,0.2700475962,
+30,Spaghetti,,31
+31,Pasta,,32
+32,Pasta and Noodles,7.57055912,33
+33,Prepared Meals,,
+34,Chickpeas,9.761070306,35
+35,Pulses,2.20917018,36
+36,Legumes,0.5138533765,10
+37,Coriander,5.966025323,18
+38,Parsley,0.9610959263,18
+39,Red Onions,,11
+40,Lemon Juice,,41
+41,Lemons,8.5744324,42
+42,Citrus,1.122107528,43
+43,Fruit,4.408172499,
+44,Harissa,,45
+45,Spices,3.882260797,46
+46,Spices and Seasonings,,
+47,Double Cream,1.29342412,48
+48,Cream,4.027040964,49
+49,Dairy,,
+50,Mascarpone,6.404843943,51
+51,Cheese,4.662044875,49
+52,Marsala,2.842286935,53
+53,Spirits,,28
+54,Golden Caster Sugar,,55
+55,Caster Sugar,,56
+56,Sugar,4.546019718,57
+57,Seasonings,,46
+58,Coffee Granules,,59
+59,Coffee,4.910862654,60
+60,Hot Drinks,,29
+61,Lady Fingers,,62
+62,Biscuits,,63
+63,Snacks,2.496939229,
+64,Dark Chocolate,7.423826904,65
+65,Chocolate,8.34796857,66
+66,Bars,,63
+67,Cocoa Powder,,68
+68,Cocoa Beans,2.958116399,69
+69,Seeds,0.5706210838,70
+70,Nuts and Seeds,3.171540022,
+71,Tinned Plum Tomatoes,,22

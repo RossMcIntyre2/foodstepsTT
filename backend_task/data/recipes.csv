@@ -1,0 +1,34 @@
+Recipe ID,Recipe Name,Ingredient Name,Ingredient Weight / kg
+1,Spaghetti Bolognese,beef mince,0.25
+1,Spaghetti Bolognese,Pork Mince,0.25
+1,Spaghetti Bolognese,Carrots,0.1
+1,Spaghetti Bolognese,Onions,0.25
+1,Spaghetti Bolognese,Celery,0.1
+1,Spaghetti Bolognese,Garlic,0.01
+1,Spaghetti Bolognese,Rosemary,0.002
+1,Spaghetti Bolognese,Olive oil,0.025
+1,Spaghetti Bolognese,Plum Tomatoes (Tinned),0.8
+1,Spaghetti Bolognese,Water,0.5
+1,Spaghetti Bolognese,"Wine, Red",0.2
+1,Spaghetti Bolognese,spaghetti,0.5
+2,Tiramisu,Double Cream,0.5
+2,Tiramisu,Mascarpone,0.25
+2,Tiramisu,Marsala,0.075
+2,Tiramisu,Caster Sugar Golden,0.03
+2,Tiramisu,coffee granules,0.03
+2,Tiramisu,Water,0.3
+2,Tiramisu,lady fingers,0.175
+2,Tiramisu,Dark Chocolate,0.025
+2,Tiramisu,Powder Cocoa,0.01
+3,Chickpea Salad,Chickpeas,0.4
+3,Chickpea Salad,Coriander,0.01
+3,Chickpea Salad,Parsley,0.01
+3,Chickpea Salad,Red Onions,0.75
+3,Chickpea Salad,Tomatoes,0.15
+3,Chickpea Salad,Olive Oil,0.025
+3,Chickpea Salad,Lemon Juice,0.01
+3,Chickpea Salad,Harissa,0.005
+4,Salted Caramel Ice Cream,Double Cream,0.3
+4,Salted Caramel Ice Cream,Caster Sugar,0.1
+4,Salted Caramel Ice Cream,Xanthum Gum,0.002
+4,Salted Caramel Ice Cream,Milk Powder,0.05
