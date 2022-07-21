@@ -116,7 +116,7 @@ def import_food_class_models(csv_path):
                 f"in {round(time.time() - start, 3)} seconds. Failed to resolve impact for {count_failed} of these"
             )
         except Exception as e:
-            print("Failed to create food class models based on CSV file due to error: ")
+            print("Failed to create food class models based on CSV file due to error: ", e)
 
 
 def import_recipe_ingredient_models(csv_path):
@@ -168,10 +168,15 @@ def import_recipe_ingredient_models(csv_path):
             )
             recipe_ingredient_models.append(recipe_ingredient)
 
-        # Bulk create all the objects from a list to
-        # reduce the number of queries from around N to just 1
-        Recipe.objects.bulk_create(recipe_models)
-        RecipeIngredient.objects.bulk_create(recipe_ingredient_models)
+        try:
+            # wrap creation in an atomic transaction to ensure we don't have any failing uploads
+            with transaction.atomic():
+                # Bulk create all the objects from a list to
+                # reduce the number of queries from around N to just 1
+                Recipe.objects.bulk_create(recipe_models)
+                RecipeIngredient.objects.bulk_create(recipe_ingredient_models)
+        except Exception as e:
+            print("Failed to create food class models based on CSV file due to error: ", e)
 
         logger.info(
             f"Successfully created {len(recipe_ingredient_models)} recipe ingredients and {len(recipe_models)} "
